@@ -3,40 +3,27 @@ import './App.css'
 
 import NavigationBar from './components/NavigationBar'
 import TechInfrastructureHero from './components/TechInfrastructureHero'
-import ClientFeedback from './components/ClientFeedback'
 import HeroSectionDivOne from './components/HeroSectionDivOne'
 import CompanyLogos from './components/CompanyLogos'
 import IntroductionSection from './components/IntroductionSection'
 import FeatureCards from './components/FeatureCards'
-import TestimonialsSection from './components/TestimonialsSection'
+import FeatureTags from './components/FeatureTags'
 import HeroSectionDivTwo from './components/HeroSectionDivTwo'
 import Footer from './components/Footer'
-
 
 function App() {
 
   return (
     <>
       <NavigationBar />
-      <div id="home">
-        <TechInfrastructureHero />
-      </div>
-      <ClientFeedback />
+      <TechInfrastructureHero />
       {/* <CompanyLogos /> */}
-      <div id="about">
-        <IntroductionSection />
-      </div>
+      <IntroductionSection />
       <HeroSectionDivOne />
-      <div id="services">
-        <FeatureCards />
-      </div>
-      <div id="testimonials">
-        <TestimonialsSection />
-      </div>
+      <FeatureCards />
+      <FeatureTags />
       {/* <HeroSectionDivTwo /> */}
-      <div id="contact">
-        <Footer />
-      </div>
+      <Footer />
     </>
   )
 }

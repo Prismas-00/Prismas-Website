@@ -21,9 +21,7 @@ const HeroSectionDivOne = () => {
           </p>
           
           <button className="bg-green-300 hover:bg-cyan-600 text-gray-950  px-6 py-3 rounded-md font-medium transition-colors duration-200">
-            Contact Us 
-            
-            
+            Get Started
           </button>
         </div>
         
